@@ -1,0 +1,10 @@
+[package]
+name = "WebsiteChecker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+ureq = "2.5"  # Add the appropriate version of `ureq` here
+futures = "0.3"
+chrono = "0.4"
